@@ -26,17 +26,20 @@
     }
 </style>
     <style>
-       .back {
-    --sl: calc(2em + 1px) calc(3em + -.5px),
-                transparent calc(3em + .5px);
-    background: radial-gradient(#fff 1em, #000 calc(1em + 1px) 2em, #fff var(--sl)) 4.2426406871em 4.2426406871em, repeating-conic-gradient(#000 0% 25%, transparent 0% 50%) 2.1213203436em 2.1213203436em, radial-gradient(#000 1em, #fff calc(1em + 1px) 2em, #000 var(--sl));
-    background-size: 8.4852813742em 8.4852813742em, 16.9705627485em 16.9705627485em;
-    background-blend-mode: lighten;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	text-shadow: 0px 0px 5px #123456;
+	height: 100vh;
+	background:
+		linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
+		repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%),
+		repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%);
+	background-color: rgba(34, 76, 152, 0.25);
+}
     </style>
 </head>
 
